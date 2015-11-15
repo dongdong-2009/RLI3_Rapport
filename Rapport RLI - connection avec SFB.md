@@ -1,4 +1,5 @@
 # Rapport RLI : connection avec SFB
+----
 
 ## Etape de mise en communication des automates :
 
