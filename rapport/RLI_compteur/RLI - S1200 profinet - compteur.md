@@ -61,6 +61,20 @@ Les instructions put et get se trouver dans la section communication a gauche pu
 
 image
 
+- REQ : ```true``` pour activer l'échange
+- ID : valeur que l'on veut
+- ADDR_1 : ```P#DB1.DBX0.0 BYTE 2 ``` on veut envoyer ```SD_1``` dans la DB1 à l'adresse 0.0 d'une taille de 2 bytes
+- SD_1 : la valeur que l'on veut envoyer
+
+### Configurer la liaison 
+
+1. cliquer sur le block put
+2. aller propriete
+3. configuration
+4. et encoder le nom du partenaire
+
+image
+
 ##Problème rencontrer :
 
 - Si les IHM ne sont pas reconnu et que l'Ip est correcte :
