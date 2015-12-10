@@ -23,10 +23,10 @@
 
 ## Configuration réseau 
 
-- aller dans *MPI*
-- connecter les 2 stations( les CP) au cable ethernet
+- aller dans *MPI* pour configurer le réseau
+- connecter les 2 stations (les CP) au cable ethernet
 - ![](mpi.png)
-- mettre le cable gris sur le S400 charge le config dans S400
+- mettre le cable gris sur le S400 charge la config dans S400
 - changer le cable gris et cable sur S300
 - charge dans S300
 - cliquer la *CPU 315-2 DP* et double click sur l'ID 
@@ -37,7 +37,7 @@
 
 puis recharger dans chaquqe machine
 
-## Pet et get 
+## Put et get 
 Ou ?
 
 - Bibliotheque
