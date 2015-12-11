@@ -38,6 +38,8 @@
 puis recharger dans chaquqe machine
 
 ## Put et get 
+
+### PUT S400
 Ou ?
 
 - Bibliotheque
@@ -45,9 +47,9 @@ Ou ?
 - System fonction bock
 - Il faut choisir le *SFB15 PUT*
 
-![](OB1_400.png)
+![](PUT_400.png)
 
-- *REG* : action qui transmet les infos
+- *REG* : action qui transmet les infos, ici la memento de cadence
 - *ID* : l'ID encode dans la laison MPI
 - *ADDR_1* : l'adresse ou envoye les informations
 - *SD_1* : les données que l'on veut envoyer sur *ADDR_1*
@@ -55,10 +57,29 @@ Ou ?
 
 
 
+### GET S400
+Ou ?
+
+- Bibliotheque
+- Standard lib
+- System fonction bock
+- Il faut choisir le *SFB14 PUT*
+
+![](get_400.png)
+
+- *REG* : action qui receptionne les infos, ici la memento de cadence
+- *ID* : l'ID encode dans la laison MPI
+- *ADDR_1* : l'adresse ou recupere les informations
+- *RD_1* : ou stocké les information recues
+
+### Compteur S300
 
 
+![](compteur_300.png)
 
-
+- ZV : pour incrementer
+- ZR : pour decremneter
+- E 0.7 pour reset
 
 
 
